@@ -10,8 +10,7 @@ public class RandomFunction1
 		Scanner input = new Scanner( System.in );
 		RandomNum compNum = new RandomNum();
 		int guess;
-		
-		compNum.computerNum1 = 1 + (int) (Math.random()*10);
+		compNum.GetANumber_Between_1_and_10();
 		
 		System.out.println("Guess of a number between 0-10: ");
 		guess= input.nextInt();
